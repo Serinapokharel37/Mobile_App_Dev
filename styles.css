@@ -1,0 +1,68 @@
+: none;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: background-color 0.3s;
+    font-size: 0.9rem;
+}
+
+.share-option i {
+    font-size: 1.2rem;
+}
+
+.share-option[data-platform="facebook"] i {
+    color: #3b5998;
+}
+
+.share-option[data-platform="twitter"] i {
+    color: #1da1f2;
+}
+
+.share-option[data-platform="whatsapp"] i {
+    color: #25d366;
+}
+
+.share-option[data-platform="copy"] i {
+    color: #333;
+}
+
+.share-option:hover {
+    background-color: #eee;
+}
+
+/* === Animations === */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes slideUp {
+    from { transform: translateY(0); opacity: 0; }
+    to { transform: translateY(-50%); opacity: 1; }
+}
+
+/* === Media Queries === */
+@media (min-width: 768px) {
+    .app-container {
+        max-width: 768px;
+    }
+    
+    .modal-content {
+        margin: 30vh auto 0;
+        transform: translateY(-30%);
+    }
+    
+    .joke-container, .quote-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dai Ko Guff</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app-container">
+        <header>
+            <div class="logo">
+                <h1>Dai Ko Guff</h1>
+            </div>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </header>
+
+        <nav class="main-nav">
+            <ul>
+                <li data-section="home" class="active"><i class="fas fa-home"></i> Home</li>
+                <li data-section="healthy-jokes"><i class="fas fa-apple-alt"></i> Healthy Jokes</li>
+                <li data-section="motivation"><i class="fas fa-bolt"></i> Motivation</li>
+                <li data-section="dad-jokes"><i class="fas fa-grin-squint"></i> Dad Jokes</li>
+                <li data-section="notes"><i class="fas fa-sticky-note"></i> Notes</li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="home" class="content active">
+                <div class="welcome-card">
+                    <h2>Welcome to Dai Ko Guff</h2>
+                    <div class="featured-joke">
+                        <i class="fas fa-quote-left"></i>
+                        <p>I told my wife she should embrace her mistakes... She gave me a hug! 🤗</p>
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <div class="swipe-hint">
+                        <p><i class="fas fa-hand-point-right"></i> Swipe left or use the menu to explore more content</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="healthy-jokes" class="content">
+                <h2><i class="fas fa-apple-alt"></i> Healthy Jokes</h2>
+                <div class="joke-container">
+                    <div class="joke-card">
+                        <p>Why did the tomato turn red? Because it saw the salad dressing! 🥗</p>
+                        <div class="reaction">
+                            <button class="like-btn"><i class="far fa-heart"></i> <span>0</span></button>
+                            <button class="share-btn"><i class="fas fa-share-alt"></i></button>
+                        </div>
+                    </div>
+                    <div class="joke-card">
+                        <p>Why do bananas never feel lonely? Because they hang out in bunches! 🍌</p>
+                        <div class="reaction">
+                            <button class="like-btn"><i class="far fa-heart"></i> <span>0</span></button>
+                            <button class="share-btn"><i class="fas fa-share-alt"></i></button>
+                        </div>
+                    </div>
+                    <div class="joke-card">
+                        <p>What do you call cheese that isn't yours? Nacho cheese! 🧀</p>
+                        <div class="reaction">
+                            <button class="like-btn"><i class="far fa-heart"></i> <span>0</span></button>
+                            <button class="share-btn"><i class="fas fa-share-alt"></i></button>
+                        </div>
+                    </div>
+                    <div class="joke-card">
+                        <p>What's orange and sounds like a parrot? A carrot! 🥕</p>
+                        <div class="reaction">
+                            <button class="like-btn"><i class="far fa-heart"></i> <span>0</span></button>
+                            <button class="share-btn"><i class="fas fa-share-alt"></i></button>
+                        </div>
+                    </div>
+                    <div class="joke-card">
+                        <p>Why did the apple stop in the middle of the road? Because it ran out of juice! 🍏</p>
+                        <div class="reaction">
+                            <button class="like-btn"><i class="far fa-heart"></i> <span>0</span></button>
+                            <button class="share-btn"><i class="fas fa-share-alt"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="motivation" class="content">
+                <h2><i class="fas fa-bolt"></i> Motivation</h2>
+                <div class="quote-container">
+                    <div class="quote-card">
+                        <p>"You are never too old to set another goal or to dream a new dream." 🌟</p>
+                        <div class="reaction">
+                            <button class="like-btn"><i class="far fa-heart"></i> <span>0</span></button>
+                            <button class="share-btn"><i class="fas fa-share-alt"></i></button>
+                        </div>
+                    </div>
+                    <div class="quote-card">
+                        <p>"Success is not final, failure is not fatal: it is the courage to continue that counts." 💪</p>
+                        <div class="reaction">
+                            <button class="like-btn"><i class="far fa-heart"></i> <span>0</span></button>
+                            <button class="share-btn"><i class="fas fa-share-alt"></i></button>
+                        </div>
+                    </div>
+                    <div class="quote-card">
+                        <p>"The only way to do great work is to love what you do." ❤️</p>
+                        <div class="reaction">
+                            <button class="like-btn"><i class="far fa-heart"></i> <span>0</span></button>
+                            <button class="share-btn"><i class="fas fa-share-alt"></i></button>
+                        </div>
+                    </div>
+                    <div class="quote-card">
+                        <p>"The harder you work for something, the greater you'll feel when you achieve it." 🌟</p>
+                        <div class="reaction">
+                            <button class="like-btn"><i class="far fa-heart"></i> <span>0</span></button>
+                            <button class="share-btn"><i class="fas fa-share-alt"></i></button>
+                        </div>
+                    </div>
+                    <div class="quote-card">
+                        <p>"Dream big and dare to fail." 💭</p>
+                        <div class="reaction">
+                            <button class="like-btn"><i class="far fa-heart"></i> <span>0</span></button>
+                            <button class="share-btn"><i class="fas fa-share-alt"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="dad-jokes" class="content">
+                <h2><i class="fas fa-grin-squint"></i> Dad Jokes</h2>
+                <div class="joke-container">
+                    <div class="joke-card">
+                        <p>What do you call a bear with no teeth? A gummy bear! 🐻</p>
+                        <div class="reaction">
+                            <button class="like-btn"><i class="far fa-heart"></i> <span>0</span></button>
+                            <button class="share-btn"><i class="fas fa-share-alt"></i></button>
+                        </div>
+                    </div>
+                    <div class="joke-card">
+                        <p>Why don't skeletons fight each other? They don't have the guts! ☠️</p>
+                        <div class="reaction">
+                            <button class="like-btn"><i class="far fa-heart"></i> <span>0</span></button>
+                            <button class="share-btn"><i class="fas fa-share-alt"></i></button>
+                        </div>
+                    </div>
+                    <div class="joke-card">
+                        <p>Why did the scarecrow win an award? Because he was outstanding in his field! 🌾</p>
+                        <div class="reaction">
+                            <button class="like-btn"><i class="far fa-heart"></i> <span>0</span></button>
+                            <button class="share-btn"><i class="fas fa-share-alt"></i></button>
+                        </div>
+                    </div>
+                    <div class="joke-card">
+                        <p>What did one ocean say to the other ocean? Nothing, they just waved! 🌊</p>
+                        <div class="reaction">
+                            <button class="like-btn"><i class="far fa-heart"></i> <span>0</span></button>
+                            <button class="share-btn"><i class="fas fa-share-alt"></i></button>
+                        </div>
+                    </div>
+                    <div class="joke-card">
+                        <p>Why don't eggs tell jokes? They might crack up! 🥚</p>
+                        <div class="reaction">
+                            <button class="like-btn"><i class="far fa-heart"></i> <span>0</span></button>
+                            <button class="share-btn"><i class="fas fa-share-alt"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="notes" class="content">
+                <h2><i class="fas fa-sticky-note"></i> Notes</h2>
+                <div class="notes-input">
+                    <textarea id="userNote" placeholder="Write your note here..."></textarea>
+                    <div class="note-actions">
+                        <button id="clearNote"><i class="fas fa-eraser"></i> Clear</button>
+                        <button id="shareNote"><i class="fas fa-paper-plane"></i> Share</button>
+                    </div>
+                </div>
+                <div class="notes-display">
+                    <h3>Shared Notes</h3>
+                    <div id="sharedNotes" class="shared-notes-container"></div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Dai Ko Guff - Happy Vibes Only</p>
+        </footer>
+
+        <div class="share-modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3>Share this content</h3>
+                    <span class="close-modal">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="share-options">
+                        <button class="share-option" data-platform="facebook">
+                            <i class="fab fa-facebook"></i> Facebook
+                        </button>
+                        <button class="share-option" data-platform="twitter">
+                            <i class="fab fa-twitter"></i> Twitter
+                        </button>
+                        <button class="share-option" data-platform="whatsapp">
+                            <i class="fab fa-whatsapp"></i> WhatsApp
+                        </button>
+                        <button class="share-option" data-platform="copy">
+                            <i class="fas fa-copy"></i> Copy Text
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
